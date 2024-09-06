@@ -22,23 +22,23 @@ i = int(input('''
     3) Mais alto no meio
 '''))
 
+meio = a
+
 maior = a
 if (b > maior):
+    meio = maior
     maior = b
 if (c > maior):
+    meio = maior
     maior = c
 
 menor = a
 if (b < menor):
+    meio = menor
     menor = b
 if (c < menor):
+    meio = menor
     menor = c
-
-meio = a
-if (b in range(maior,menor)):
-    meio = b
-if (c in range(maior,menor)):
-    meio = c
 
 if (i == 1):
     print(menor, meio, maior, sep=', ')
