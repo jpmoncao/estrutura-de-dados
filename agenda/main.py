@@ -1,5 +1,5 @@
 from menu import show_menu, meeting
-from actions import insert, list_all, list_contact, edit, orderby_name
+from actions import insert, list_all, list_contact, edit, orderby, delete, save_file
 
 meeting()
 
@@ -15,6 +15,10 @@ while True:
     elif option_selected == 4:
         edit()
     elif option_selected == 5:
-        orderby_name()
+        orderby()
+    elif option_selected == 6:
+        delete()
     elif option_selected == 7:
+        save_file()
+    elif option_selected == 8:
         break
