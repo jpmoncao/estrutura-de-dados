@@ -12,3 +12,4 @@ Alguns exercícios que me desafiaram, animaram ou simplesmente merecem seu desta
 - [Bubble Sort](https://github.com/jpmoncao/estrutura-de-dados/blob/master/006.listas/desafios/ex03.py) - Algoritmo Bubble Sort
 - [Jogo da forca](https://github.com/jpmoncao/estrutura-de-dados/blob/master/006.listas/desafios/ex04.py) - Forca com linguagens de programação (me diverti muito)
 - [Agenda](https://github.com/jpmoncao/agenda-python) - Agenda de contatos, criei um repositório só para ele
+- [Arquivos](https://github.com/jpmoncao/estrutura-de-dados/tree/master/007.strings/parte-02) - Manipulando arquivos txt
