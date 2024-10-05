@@ -6,3 +6,9 @@ Para concluir este exercício com êxito:
 Defina uma função que receba uma sequência de números como entrada.
 Implemente um método para formatar a string como um CPF brasileiro.
 Retorne o CPF formatado como a saída da função.'''
+
+def formatar_cpf(sequencia):
+    return f'{sequencia[0:3]}.{sequencia[3:6]}.{sequencia[6:9]}-{sequencia[9:11]}'
+    
+cpf = input('CPF: ')
+print(formatar_cpf(cpf))
